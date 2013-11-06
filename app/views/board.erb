@@ -1,0 +1,49 @@
+<head>
+
+</head>
+
+
+
+<div class="container">
+
+
+<h1>Speed Racer Track </h1>
+  <p>Lets Race!</p>
+<table class="racer_table">
+    <tr id="<%= @player1.name %>"data-player-name-first="<%= @player1.name %>" data-player-id="<%= @player1.id %>">
+        <td id='active'><%=@player1.name%></td>
+        <td class="active"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr id="<%= @player2.name %>" data-player-name="<%= @player2.name %>"  data-player-id="<%= @player2.id %>">
+        <td id= "player_name2"><%=@player2.name%></td>
+        <td class="active"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<h1><div id='timer_div' >
+</div></h1>
+
+</div>
+
